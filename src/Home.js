@@ -4,9 +4,9 @@ import React from "react";
 function Home() {
     return (
       <>
-        <se  >
-            Set home
-        </se>
+        <section style={{background:"red"}}>
+            Home
+        </section>
       </>
     );
   }
