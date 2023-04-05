@@ -1,12 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Login from "./Paginas/Login";
 
 
 function Home() {
     return (
       <>
-        <section style={{background:"red"}}>
-            Home
-        </section>
+        <Link to='Login' >Inicie</Link>
       </>
     );
   }

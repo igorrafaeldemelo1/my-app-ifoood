@@ -1,0 +1,81 @@
+.flex{
+    display: flex;    
+}
+.just{
+    justify-content: space-between;
+}
+.center{
+    margin: auto;
+    text-align: center;
+    width: auto;
+}
+.block{
+    display: block;
+}
+#Top{
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+#Restaurantes{
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.ImgIcons{
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin: auto;
+}
+.ImgIconsLoja{
+    background-position: center;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    
+}
+.ImgIconsLojaItens{
+    background-position: center;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    border-radius: 6px; 
+    
+}
+.CardFav{
+    width: auto
+    
+}
+.ListLojasIcon{
+    padding: 10px;
+}
+ul{
+    padding: 0%;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.StarsFav{
+   margin-right: 50px;
+}
+.LogoImgLoja{
+    background-position: center;
+    background-size: auto;
+    height: 200px;
+    width: auto;
+}
+.Dados{
+    width: 100px;
+    margin: auto;
+}
+.QtdItens{
+    width: 30%;
+}
