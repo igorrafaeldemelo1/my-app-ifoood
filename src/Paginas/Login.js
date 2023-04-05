@@ -14,7 +14,7 @@ function Login() {
 
     const LoginPage = () =>{
         if(BancoDados.Usuario == name && BancoDados.Password== password){
-            window.open('http://localhost:3000/Section01','_self')
+            window.open('https://my-app-ifoood-agbu-cuzo2eojr-igorrafaeldemelo1.vercel.app/Section01','_self')
         }else{
             setName("")
             setPassword("")
