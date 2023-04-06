@@ -8,8 +8,10 @@ import Pizzaria from './Paginas/Pizzaria';
 import Lancheria from './Paginas/Lancheria';
 import Restautante from './Paginas/Restaurantes';
 import Pedidos from './Paginas/Pedidos';
+import MenuBarra from './Componentes/MenuBarra';
 
 function App() {
+  
   return (
     <Router>
       <Routes>
@@ -21,6 +23,7 @@ function App() {
          <Route path='Lancheria' element={<Lancheria/>}  />
          <Route path='Restautante' element={<Restautante/>}  />
          <Route path='Pedidos' element={<Pedidos/>}  />
+         <Route path='MenuBarra' element={<MenuBarra/>}  />
       </Routes>
     </Router>
   );

@@ -11,14 +11,16 @@ function Login() {
     const [name, setName] = useState("");
     const [password, setPassword] = useState("");
     const [email, setEmail] = useState("");
+    const [Login, setLogin] =  useState(false);
 
     const LoginPage = () =>{
         if(BancoDados.Usuario == name && BancoDados.Password== password){
-            window.open('http://localhost:3000/Section01','_self')
+            
+         return setLogin(true);
         }else{
-            setName("")
-            setPassword("")
+            return setLogin(false);
         }
+        
     }
 
     return (
@@ -48,16 +50,14 @@ function Login() {
                         type="text"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
+                        
                     />
                 </label>
                 </div>
-                <Link onClick={LoginPage} >Registrar</Link>
+                <div onMouseOver={LoginPage} >{Login?<Link to="/Section01">Logar</Link>:<button onClick={()=>alert("Senha incorreta")}>Logar</button>}</div>
             </form>
         </>
     );
-
-   
-
 }
 
 export default Login;

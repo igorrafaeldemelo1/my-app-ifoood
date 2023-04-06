@@ -11,12 +11,12 @@ export default class BancoDadosLojas {
                 [
                     "Iten01",
                     "https://th.bing.com/th/id/OIP.r_a8nKNlIP3tofoDYM5jcQHaHa?pid=ImgDet&rs=1",
-                    28.6,
-                    0
+                    10.0,
+                    3
                 ], [
                     "Iten02",
                     "https://th.bing.com/th/id/OIP.r_a8nKNlIP3tofoDYM5jcQHaHa?pid=ImgDet&rs=1",
-                    28.6,
+                    20.0,
                     0
                 ], [
                     "Iten03",
@@ -27,7 +27,7 @@ export default class BancoDadosLojas {
                     "Iten04",
                     "https://th.bing.com/th/id/OIP.r_a8nKNlIP3tofoDYM5jcQHaHa?pid=ImgDet&rs=1",
                     28.6,
-                    0
+                    5
                 ], [
                     "Iten05",
                     "https://th.bing.com/th/id/OIP.r_a8nKNlIP3tofoDYM5jcQHaHa?pid=ImgDet&rs=1",
@@ -37,7 +37,27 @@ export default class BancoDadosLojas {
                     "Iten06",
                     "https://th.bing.com/th/id/OIP.r_a8nKNlIP3tofoDYM5jcQHaHa?pid=ImgDet&rs=1",
                     28.6,
+                    1
+                ], [
+                    "Iten07",
+                    "https://th.bing.com/th/id/OIP.r_a8nKNlIP3tofoDYM5jcQHaHa?pid=ImgDet&rs=1",
+                    28.6,
                     0
+                ], [
+                    "Iten08",
+                    "https://th.bing.com/th/id/OIP.r_a8nKNlIP3tofoDYM5jcQHaHa?pid=ImgDet&rs=1",
+                    28.6,
+                    0
+                ], [
+                    "Iten09",
+                    "https://th.bing.com/th/id/OIP.r_a8nKNlIP3tofoDYM5jcQHaHa?pid=ImgDet&rs=1",
+                    28.6,
+                    2
+                ], [
+                    "Iten10",
+                    "https://th.bing.com/th/id/OIP.r_a8nKNlIP3tofoDYM5jcQHaHa?pid=ImgDet&rs=1",
+                    28.6,
+                    3
                 ]
 
             ]
