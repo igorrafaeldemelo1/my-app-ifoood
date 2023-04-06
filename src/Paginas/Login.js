@@ -15,8 +15,7 @@ function Login() {
 
     const LoginPage = () =>{
         if(BancoDados.Usuario == name && BancoDados.Password== password){
-            
-         return setLogin(true);
+            window.open('http://localhost:3000/Section01','_self')
         }else{
             return setLogin(false);
         }
